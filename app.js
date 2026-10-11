@@ -1,4 +1,4 @@
-// SheetCraft AI - Interactive Application Logic
+// SheetCraft - Interactive Application Logic
 
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize Lucide Icons
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
       kpis: [
         { label: "Leads Ativos", value: "148", change: "+24% este mês", isPositive: true },
         { label: "Pipeline Ponderado", value: "R$ 482.500", change: "+18% vs meta", isPositive: true },
-        { label: "Taxa de Conversão", value: "28.4%", change: "+4.1% c/ IA", isPositive: true },
+        { label: "Taxa de Conversão", value: "28.4%", change: "+4.1% no período", isPositive: true },
         { label: "Tempo Médio Fechamento", value: "12 dias", change: "-5 dias economizados", isPositive: true }
       ],
       chartTitle: "Evolução de Oportunidades & Vendas",
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { label: "Itens em Estoque", value: "3.420 un.", change: "98% auditado", isPositive: true },
         { label: "Valor Imobilizado", value: "R$ 724.890", change: "-8% ociosidade", isPositive: true },
         { label: "Produtos em Alerta", value: "4 itens", change: "Reposição imediata", isPositive: false },
-        { label: "Giro Médio", value: "18 dias", change: "Otimizado c/ IA", isPositive: true }
+        { label: "Giro Médio", value: "18 dias", change: "Otimizado", isPositive: true }
       ],
       chartTitle: "Curva ABC e Movimentação Semanal",
       chartLabels: ["Semana 1", "Semana 2", "Semana 3", "Semana 4", "Atual"],

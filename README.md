@@ -1,23 +1,28 @@
-# SheetCraft AI — Transforme Planilhas em Sistemas Web & Aplicativos
+# SheetCraft — Transforme Planilhas em Sistemas Web & Aplicativos
 
-Landing page moderna e realista para serviço de desenvolvimento de software e sistemas web a partir de planilhas (Google Sheets, Excel, CSV), inspirada nos conceitos do vídeo:
+Landing page moderna e enxuta para serviço de desenvolvimento de software e sistemas web a partir de planilhas (Google Sheets, Excel, CSV), inspirada nos conceitos de arquitetura do vídeo:
 👉 [Turn your spreadsheets into an APP using AI (YouTube)](https://www.youtube.com/watch?v=KrzDkBTauc0)
 
 ---
 
-## 🎯 Proposta de Valor Realista & Segura
+## 🎯 Proposta de Valor & Custo Operacional Mínimo
 
-Muitas empresas (PMEs, consultorias, indústrias, comércios e prestadores de serviço) operam processos críticos em planilhas que, com o tempo, geram retrabalho:
-- Falta de controle de acessos (qualquer usuário pode ver ou editar tudo).
-- Células apagadas acidentalmente ou fórmulas quebradas (`#REF!`).
-- Dificuldade para operar no celular e registrar dados em campo.
+A arquitetura do serviço foi pensada para manter o **custo operacional próximo de zero para o desenvolvedor**, sem dependência de APIs pagas de IA ou servidores dedicados caros:
 
-### Como o serviço atende a essa dor sem promessas mirabolantes:
-1. **Mantém o Google Sheets / Excel como base de dados**: Sem migrações traumáticas. Os dados continuam sob posse da empresa.
-2. **Camada de Sistema Web & PWA**: Em vez de instaladores desktop pesados que exigem certificados caros de segurança (EV Code Signing) e atualizações manuais em cada máquina, a solução é entregue como um **Web App moderno e seguro**, compatível com computadores (Windows/Mac) e celulares (atalho PWA com 1 clique).
-3. **Sincronização em Tempo Real**: Conexão estável com a planilha para registrar e recuperar informações de maneira confiável.
-4. **Controle de Perfis**: Permissões de visualização e edição ajustadas conforme o papel de cada colaborador.
-5. **Orçamentos e Prazos Transparentes**: Cada planilha possui peculiaridades e regras próprias; os projetos são orçados com escopo e prazos definidos após diagnóstico técnico prévio.
+1. **Base de Dados Confiável (Google Sheets)**:
+   - A empresa continua usando a planilha onde já confia.
+   - Conexão nativa e sem custo via Google Apps Script e Google Sheets API.
+2. **Camada de Sistema Web & PWA**:
+   - Web App leve, moderno e responsivo, hospedável gratuitamente (Vercel, Netlify, Cloudflare Pages ou GitHub Pages).
+   - Sem custos de certificados caros de instalação desktop (EV Code Signing).
+   - Usuários podem fixar o sistema como aplicativo (PWA) na tela do celular ou na área de trabalho com 1 clique.
+3. **Dashboards & Validações sem Custo Recorrente**:
+   - Métricas, relatórios consolidados e gráficos gerados diretamente na interface via frontend (Chart.js / visualizações nativas).
+   - Formulários com validação estrita para impedir erros humanos e fórmulas quebradas (`#REF!`).
+4. **Controle de Acessos por Usuário**:
+   - Regras de perfil (quem pode ver e editar cada informação).
+5. **Orçamentos sob Medida**:
+   - Escopo fechado e orçamento definido após análise prévia da planilha do cliente.
 
 ---
 
@@ -26,7 +31,7 @@ Muitas empresas (PMEs, consultorias, indústrias, comércios e prestadores de se
 - **HTML5 & CSS3**
 - **Tailwind CSS** (via CDN)
 - **Lucide Icons** (ícones vetoriais modernos)
-- **Chart.js** (gráficos dinâmicos no showcase)
+- **Chart.js** (gráficos dinâmicos de performance)
 - **Canvas-Confetti** (micro-interações no formulário de demonstração)
 - **Vanilla JavaScript Modular (`app.js`)**
 
