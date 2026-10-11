@@ -1,45 +1,40 @@
-# SheetCraft — Transforme Planilhas em Sistemas Web & Aplicativos
+# SheetCraft — Telas Simples e Práticas para Planilhas
 
-Landing page moderna e enxuta para serviço de desenvolvimento de software e sistemas web a partir de planilhas (Google Sheets, Excel, CSV), inspirada nos conceitos de arquitetura do vídeo:
-👉 [Turn your spreadsheets into an APP using AI (YouTube)](https://www.youtube.com/watch?v=KrzDkBTauc0)
-
----
-
-## 🎯 Proposta de Valor & Custo Operacional Mínimo
-
-A arquitetura do serviço foi pensada para manter o **custo operacional próximo de zero para o desenvolvedor**, sem dependência de APIs pagas de IA ou servidores dedicados caros:
-
-1. **Base de Dados Confiável (Google Sheets)**:
-   - A empresa continua usando a planilha onde já confia.
-   - Conexão nativa e sem custo via Google Apps Script e Google Sheets API.
-2. **Camada de Sistema Web & PWA**:
-   - Web App leve, moderno e responsivo, hospedável gratuitamente (Vercel, Netlify, Cloudflare Pages ou GitHub Pages).
-   - Sem custos de certificados caros de instalação desktop (EV Code Signing).
-   - Usuários podem fixar o sistema como aplicativo (PWA) na tela do celular ou na área de trabalho com 1 clique.
-3. **Dashboards & Validações sem Custo Recorrente**:
-   - Métricas, relatórios consolidados e gráficos gerados diretamente na interface via frontend (Chart.js / visualizações nativas).
-   - Formulários com validação estrita para impedir erros humanos e fórmulas quebradas (`#REF!`).
-4. **Controle de Acessos por Usuário**:
-   - Regras de perfil (quem pode ver e editar cada informação).
-5. **Orçamentos sob Medida**:
-   - Escopo fechado e orçamento definido após análise prévia da planilha do cliente.
+Landing page focada na dor real de quem usa planilhas no dia a dia: eliminar a bagunça de preencher células diretamente no Google Sheets e evitar que fórmulas sejam apagadas.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🎯 Proposta de Valor Simples & Direta
 
-- **HTML5 & CSS3**
-- **Tailwind CSS** (via CDN)
-- **Lucide Icons** (ícones vetoriais modernos)
-- **Chart.js** (gráficos dinâmicos de performance)
-- **Canvas-Confetti** (micro-interações no formulário de demonstração)
-- **Vanilla JavaScript Modular (`app.js`)**
+Em vez de prometer um sistema corporativo ou software complexo, o serviço entrega exatamente o que resolve a dor do cliente com esforço mínimo e custo zero:
+
+1. ✍️ **Formulário Limpo de Cadastro**:
+   - Tela prática para o funcionário preencher no celular ou computador.
+   - Campos obrigatórios com validação.
+   - O colaborador não tem acesso às outras linhas nem às fórmulas da planilha.
+
+2. 🔍 **Tela de Consulta com Busca Rápida**:
+   - Uma visualização em lista/tabela para pesquisar por nome, código ou status em 2 segundos.
+   - Sem precisar rolar 50 colunas confusas no Excel.
+
+3. 📊 **Painel com Totais e Gráfico Simples**:
+   - Resumo automático dos totais somados (pedidos do mês, valores consolidados).
+   - Visão rápida para o gestor sem precisar de tabela dinâmica.
+
+---
+
+## 💡 Vantagens para quem presta o serviço (Dev / Consultor):
+
+- **Fácil de Construir**: Pode ser feito em poucas horas usando No-Code (Google AppSheet) ou com um frontend web simples que envia dados para o Google Apps Script.
+- **Custo Operacional Zero**: Sem mensalidades de servidores caros, sem banco de dados complexo e sem custos de IA.
+- **Sem Suporte Pesado**: O cliente é dono da própria planilha no Google Drive.
+- **Orçamento por Projeto**: Valor único combinado previamente, sem risco de escopo infinito.
 
 ---
 
 ## 💻 Como Visualizar Localmente
 
-Abra diretamente no navegador ou inicie um servidor local:
+Abra no navegador:
 
 ```bash
 cd /Users/delfiol/Documents/Projetos/sheet2app-landing
